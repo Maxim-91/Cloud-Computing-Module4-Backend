@@ -14,3 +14,19 @@ The React Compiler is not enabled on this template because of its impact on dev 
 ## Expanding the ESLint configuration
 
 If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+
+---
+
+## 🌐 Deployment & Cloud Integration
+
+This project has been modified from Module 3 to integrate with a sentiment analysis backend and is hosted on the **CSC Rahti** container cloud.
+
+* **Hosted Frontend URL:** [https://cloud-computing-module-4-backend-modify-module3.2.rahtiapp.fi](https://cloud-computing-module-4-backend-modify-module3.2.rahtiapp.fi)
+* **GitHub Repository:** [https://github.com/Maxim-91/Cloud-Computing-Module4-Backend.git](https://github.com/Maxim-91/Cloud-Computing-Module4-Backend.git)
+
+### 🚀 CI/CD and Containerization
+* **Dockerized:** A `Dockerfile` has been added to the root directory to containerize the React + Vite application for production.
+* **Cloud Hosting:** Deployed via **CSC Rahti** using the "Import from Git" strategy.
+* **Auto-Build:** The project uses the Rahti pipeline to automatically build and serve the frontend assets upon deployment.
+
+---
