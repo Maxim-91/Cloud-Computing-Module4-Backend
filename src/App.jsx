@@ -5,7 +5,21 @@ function App() {
   const [result, setResult] = useState("");
 
   const analyzeSentiment = () => {
-    const sentiments = ["Positive 😊", "Negative 😞", "Neutral 😐"];
+    const analyzeSentiment = async () => {
+  const response = await fetch(
+    "https://backend-rahti-backend-rahti.2.rahtiapp.fi",
+    {
+      method: "POST",
+      headers: {
+        "Content-Type": "application/json"
+      },
+      body: JSON.stringify({ text })
+    }
+  );
+
+  const data = await response.json();
+  setResult(data.result);
+};
     const random = sentiments[Math.floor(Math.random() * sentiments.length)];
     setResult(random);
   };
