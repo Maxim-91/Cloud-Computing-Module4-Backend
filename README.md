@@ -21,8 +21,8 @@ If you are developing a production application, we recommend using TypeScript wi
 
 This project has been modified from Module 3 to integrate with a sentiment analysis backend and is hosted on the **CSC Rahti** container cloud.
 
-* **Hosted Frontend URL:** [https://cloud-computing-module-4-backend-modify-module3.2.rahtiapp.fi](https://cloud-computing-module-4-backend-modify-module3.2.rahtiapp.fi)
-* **GitHub Repository:** [https://github.com/Maxim-91/Cloud-Computing-Module4-Backend.git](https://github.com/Maxim-91/Cloud-Computing-Module4-Backend.git)
+## 🔗 Live Demo
+* **Deployed URL:** [https://cloud-computing-module-4-backend-modify-module3.2.rahtiapp.fi](https://cloud-computing-module-4-backend-modify-module3.2.rahtiapp.fi)
 
 ### 🚀 CI/CD and Containerization
 * **Dockerized:** A `Dockerfile` has been added to the root directory to containerize the React + Vite application for production.
